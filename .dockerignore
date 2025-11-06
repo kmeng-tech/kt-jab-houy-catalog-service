@@ -1,0 +1,10 @@
+.gradle/
+.vscode/
+build/
+docker/
+.git/
+.gitignore
+.gitattributes
+CHANGES
+docker-compose.yml
+README.md

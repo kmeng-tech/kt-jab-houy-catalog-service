@@ -1,0 +1,16 @@
+FROM gradle:9.2.0-jdk21-alpine
+WORKDIR /home/java/app
+
+# Copy Gradle config and pre-fetch dependencies for faster builds
+COPY build.gradle settings.gradle ./
+COPY gradle gradle
+RUN gradle dependencies --no-daemon || true
+
+# Copy source code
+COPY . .
+
+# Expose port 8081 for Spring Boot
+EXPOSE 8081
+
+# Run Spring Boot in dev mode with continuous build
+CMD ["./gradlew", "bootRun"]
