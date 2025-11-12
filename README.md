@@ -4,7 +4,7 @@ This repository provides a **Spring Boot Application** for running a **Catalog M
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 
 ```shell
 kt-jab-houy-catalog-service/
@@ -27,7 +27,7 @@ kt-jab-houy-catalog-service/
 
 ---
 
-## 🧱 Cloning the Repository
+## Cloning the Repository
 
 ### Option 1: Clone Normally
 
