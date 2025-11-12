@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: .
-      dockerfile: docker/Dockerfile.dev
+      dockerfile: docker/catalog-service/Dockerfile.dev
     container_name: kt-jab-houy-app-catalog-service
     ports:
       - "8081:8080"
