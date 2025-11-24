@@ -2,3 +2,4 @@ Version 1.0.0
 - Add sample code for the catalog service
 - Upgrade SpringBoot version 3.5.7 for Catalog service
 - Dockerize for the Catalog service
+- Replace the current docker folder with the sub-module of the docker project
