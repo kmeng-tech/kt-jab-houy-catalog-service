@@ -38,7 +38,7 @@ git clone https://github.com/kmeng-tech/kt-jab-houy-catalog-service.git
 cd kt-jab-houy-catalog-service
 ```
 
-### Option 2: Add as a Submodule to Another Project
+### Option 2: Add as a Submodule from Another Project
 
 If this database setup is part of a larger project, you can add it as a **Git submodule**:
 
